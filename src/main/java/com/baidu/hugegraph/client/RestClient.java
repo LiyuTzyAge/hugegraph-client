@@ -31,7 +31,7 @@ import com.baidu.hugegraph.util.VersionUtil;
 import com.baidu.hugegraph.util.VersionUtil.Version;
 import com.fasterxml.jackson.databind.module.SimpleModule;
 
-public class RestClient extends com.baidu.hugegraph.rest.RestClient {
+public class RestClient extends RestClientAuthSession {
 
     private static final int SECOND = 1000;
 

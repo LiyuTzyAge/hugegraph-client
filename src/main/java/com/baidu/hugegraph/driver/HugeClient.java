@@ -20,11 +20,14 @@
 package com.baidu.hugegraph.driver;
 
 import java.io.Closeable;
+import java.util.Iterator;
 
 import javax.ws.rs.ProcessingException;
 
 import com.baidu.hugegraph.client.RestClient;
 import com.baidu.hugegraph.exception.ServerException;
+import com.baidu.hugegraph.structure.gremlin.Result;
+import com.baidu.hugegraph.structure.gremlin.ResultSet;
 import com.baidu.hugegraph.util.VersionUtil;
 import com.baidu.hugegraph.version.ClientVersion;
 
